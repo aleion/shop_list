@@ -141,9 +141,6 @@ ul.todo li .buttons button{
     background: none;
     box-shadow: none;
     cursor: pointer;
-    display: grid;
-    align-content: center;
-    justify-items: center;
 }
 ul.todo li .buttons button:last-of-type::before{
     content: '';
@@ -155,8 +152,9 @@ ul.todo li .buttons button:last-of-type::before{
     background: #edf0f1;
 }
 ul.todo li .buttons button svg{
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
     cursor: pointer;
 }
 
