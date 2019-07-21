@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 367.001 110">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        filter: url(#azul);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.298" y1="-0.506" x2="0.263" y2="1.194" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#52caff"/>
+      <stop offset="1" stop-color="#36a2b5"/>
+    </linearGradient>
+    <filter id="azul" x="0" y="0" width="367.001" height="110" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="azul-2" data-name="azul" class="cls-1" d="M252.847,79.855A20.227,20.227,0,0,1,250.43,80H30A30,30,0,0,1,0,50V30A30,30,0,0,1,30,0H337a40.424,40.424,0,0,0-28.513,11.715,39.839,39.839,0,0,0-8.65,12.714A39.43,39.43,0,0,0,296.665,40h0A40.182,40.182,0,0,1,256.3,80Q254.556,80,252.847,79.855Z" transform="translate(12 15)"/>
+  </g>
+</svg>
